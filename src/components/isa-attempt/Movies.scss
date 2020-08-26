@@ -1,0 +1,48 @@
+.movies {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+
+  &__header {
+    display: flex;
+  }
+
+  &__table {
+    display: flex;
+    flex-direction: column;
+   
+  }
+
+
+  &__row {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    align-content: center;
+    border-bottom: solid 1px grey;
+    margin: 10px 0 10px;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  &__row--header {
+    font-weight: bold;
+    border-top: solid 1px grey;
+    
+    p {
+      margin-top: 10px;
+    }
+  }
+
+
+  &__col {
+    padding-right: 20px;
+    width: 200px;
+    text-align: left;
+
+  }
+
+
+}
